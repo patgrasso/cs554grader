@@ -10,7 +10,7 @@ Run this like any other command (if you installed it globally).
 ```sh
 cs554grader <unpack|grade|mongo-clean|...> [<args>]
 
-# Find out what it cand do:
+# Find out what it can do:
 cs554grader --help
 
 # Or learn about a certain sub-command:
