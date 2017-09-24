@@ -9,7 +9,14 @@ npm i -g cs554grader
 Run this like any other command (if you installed it globally).
 ```sh
 cs554grader <unpack|grade|mongo-clean|...> [<args>]
+
+# Find out what it cand do:
+cs554grader --help
+
+# Or learn about a certain sub-command:
+cs554grader unpack --help
 ```
+
 Commonly, the sequence in which this will be used goes as follows:
 ```sh
 cs554grader unpack johndoe_12345_4324234_John_Doe_CS554_Assignment.zip
@@ -118,14 +125,15 @@ unpack.use(timer);
 inherited from timer will go after those.
 
 Example:
-*unpack* (before calling use(timer))
+
+**unpack** (before calling `unpack.use(timer)`)
 - beforeStart
   - unzip
   - bubble module to top
 - start
   - npm install
 
-*timer*
+**timer**
 - beforeStart
   - start timer
 - afterSuccess
@@ -133,7 +141,7 @@ Example:
 
 `unpack.use(timer)`
 
-*unpack*
+**unpack** (after calling `unpack.use(timer)`)
 - beforeStart
   - unzip
   - bubble module to top
