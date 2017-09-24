@@ -1,0 +1,23 @@
+{
+  "name": "cs554grader",
+  "version": "0.1.0",
+  "description": "Grader for cs554 - web programming II",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grader",
+    "cs554",
+    "web",
+    "programming",
+    "stevens"
+  ],
+  "author": "Patrick Grasso",
+  "license": "MIT",
+  "bin": "./cs554grader.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "yargs": "^9.0.1"
+  }
+}
